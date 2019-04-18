@@ -1,4 +1,5 @@
-FROM nginx:alpine
+FROM nginx:stable-alpine
+LABEL version="1.0"
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
