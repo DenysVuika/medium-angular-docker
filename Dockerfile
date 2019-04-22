@@ -12,4 +12,4 @@ LABEL version="1.0"
 COPY nginx.conf /etc/nginx/nginx.conf
 
 WORKDIR /usr/share/nginx/html
-COPY --from=builder /usr/src/app/dist/ .
+COPY --from=builder /usr/src/app/dist/my-angular-app/ .
