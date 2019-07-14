@@ -1,5 +1,7 @@
 # Angular Docker
 
+[![Build Status](https://dev.azure.com/denysvuika/angular-docker/_apis/build/status/DenysVuika.medium-angular-docker?branchName=master)](https://dev.azure.com/denysvuika/angular-docker/_build/latest?definitionId=2&branchName=master)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
 ## Development server
