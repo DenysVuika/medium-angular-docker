@@ -25,6 +25,6 @@ steps:
   displayName: Unit tests
   inputs:
     command: 'custom'
-    customCommand: 'run test -- --watch=false'
+    customCommand: 'run test:ci'
 
 

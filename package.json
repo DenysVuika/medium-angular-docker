@@ -9,6 +9,7 @@
     "build:docker": "docker image build -t my-angular-app .",
     "start:docker": "docker run -p 3000:80 --rm my-angular-app",
     "test": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
