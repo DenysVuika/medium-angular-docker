@@ -1,9 +1,9 @@
 # Step 1: Build the app in image 'builder'
-FROM node:10.4-alpine AS builder
+FROM node:12.8-alpine AS builder
 
 WORKDIR /usr/src/app
 COPY . .
-RUN npm ci && npm run build
+RUN yarn && yarn build
 
 # Step 2: Use build output from 'builder'
 FROM nginx:stable-alpine
