@@ -90,7 +90,6 @@
       }
     }
   },
-  "defaultProject": "medium-angular-docker",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
