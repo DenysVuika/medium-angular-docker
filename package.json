@@ -30,15 +30,15 @@
     "@angular/cli": "15.2.1",
     "@angular/compiler-cli": "15.2.1",
     "@angular/language-service": "15.2.1",
-    "@types/jasmine": "~3.7.6",
+    "@types/jasmine": "^4.3.1",
     "@types/jasminewd2": "~2.0.10",
     "@types/node": "^18.14.6",
-    "jasmine-core": "~3.6.0",
-    "karma": "~6.3.19",
+    "jasmine-core": "^4.5.0",
+    "karma": "^6.4.1",
     "karma-chrome-launcher": "~3.1.1",
     "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0",
     "typescript": "4.9.5"
   }
 }
